@@ -9,13 +9,14 @@ Vue.prototype.$Alert = Alert
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
-new Vue({
+let vm = new Vue({
   el: '#app',
   router,
   components: { App },
   template: '<App/>'
 })
 
+console.log(111, vm)
 // new Vue({
 //   router,
 //   render: h => h(App)
