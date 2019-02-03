@@ -1,6 +1,7 @@
 <template>
   <section>
-    <el-alert title="成功提示的文案" type="success" class="mb-20"></el-alert>
+    <el-alert class="mb-20" title="成功提示的文案" type="success"></el-alert>
+    <el-badge class="mb-20" is-dot>评论</el-badge>
 
     <el-button hh="bb" @click="doSth">普通的按钮</el-button>
     <el-button gv="jhv" type="primary" @click="showDlg">普通的按钮</el-button>
